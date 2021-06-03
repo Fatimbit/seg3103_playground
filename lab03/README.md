@@ -111,3 +111,17 @@ Here is a screenshot from the terminal showing the results of the commands above
 The JaCoCo report showed the following result
 
 ![Jacoco Result](assets/screenshot7.png)
+
+
+
+
+
+### Refactoring Date.java
+
+I attempted to refactor Date.java by introducing new tests that would cover conditions that JaCoCo showed were not being tested. I was able to improve the coverage but not reach 100% statement, branch, condiditon and condiditon/branch coverage. I improved it so that it reached 97% instruction coverage and 83% branch coverage.
+
+The JaCoCo report showed the following results
+
+![Jacoco Result](assets/screenshot8.png)
+
+![Jacoco Result](assets/screenshot9.png)
