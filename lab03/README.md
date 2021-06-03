@@ -31,7 +31,7 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![running JUnit](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot1.PNG?token=ANE57KKQGQ5O27VDWAR76V3AXEESW)
+![running JUnit](assets/screenshot1.png)
 
 
 
@@ -51,14 +51,14 @@ java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles s
 
 Here are screenshots from the terminal showing the results of the commands above
 
-![Run the agent](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot2.PNG?token=ANE57KLLENPGYSPY2E3HOBLAXEETY)
-![Generate a report](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot3.PNG?token=ANE57KPLLSP3P6S6VCI5ZILAXEEUS)
+![Run the agent](assets/screenshot2.png)
+![Generate a report](assets/screenshot3.png)
 
 
 
 The JaCoCo report showed the following result
 
-![Jacoco Result](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot4.PNG?token=ANE57KO4GLDM3TTWGHG636DAXEEWY)
+![Jacoco Result](assets/screenshot4.png)
 
 
 
@@ -83,7 +83,7 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![running JUnit](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot5.PNG?token=ANE57KODFI3Z7NZLTS23NKLAXEEXS)
+![running JUnit](assets/screenshot5.png)
 
 
 
@@ -103,14 +103,14 @@ java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles s
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![Run the agent and generate report](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot6.PNG?token=ANE57KIOTH6TDNSTONVRDPDAXEEYI)
+![Run the agent and generate report](assets/screenshot6.png)
 
 
 
 
 The JaCoCo report showed the following result
 
-![Jacoco Result](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot7.PNG?token=ANE57KJKOZQUY3DQLJVLXVDAXEEZA)
+![Jacoco Result](assets/screenshot7.png)
 
 
 
@@ -122,6 +122,6 @@ I attempted to refactor Date.java by introducing new tests that would cover cond
 
 The JaCoCo report showed the following results
 
-![Jacoco Result](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot8.PNG?token=ANE57KJVNMXFKFVE3LUHPVTAXEEZU)
+![Jacoco Result](assets/screenshot8.png)
 
-![Jacoco Result](https://raw.githubusercontent.com/Fatimbit/seg3101_playground/master/lab03/assets/screenshot9.PNG?token=ANE57KMAE7DGKSKI7OOSZLLAXEE2Q)
+![Jacoco Result](assets/screenshot9.png)
