@@ -149,4 +149,39 @@ class DateTest {
     );
   }
 
+
+
+  //Added test cases for additional coverage
+  @Test
+  void nextDate_invalid_tc21() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1976, 6, 32)
+    );
+  }
+
+
+  @Test
+  void nextDate_invalid_tc22() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1976, 4, 31)
+    );
+  }
+
+  @Test
+  void nextDate_invalid_tc23() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1976, 2, 30)
+    );
+  }
+  @Test
+  void nextDate_tc24() {
+    Date today = new Date(2005, 4, 30);
+    assertEquals("2005/April/30", today.toString());
+  }
+
+
+
 }
