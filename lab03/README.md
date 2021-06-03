@@ -42,7 +42,7 @@ Here is a screenshot from the terminal
 
 
 ###Exercise 2:
-To run JUnit, after adding my code to the Java files (DateTest.java, DateNextDateOkTest.java, DateNextDateExceptionTest.java) I compiled the application and then compiled the test code
+To run JUnit, after adding my code to the Java files I compiled the application and then compiled the test code
 ```bash
 javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java
 ```
