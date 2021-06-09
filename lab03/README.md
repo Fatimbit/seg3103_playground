@@ -31,7 +31,7 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![running JUnit](assets/screenshot1.png)
+![running JUnit](https://user-images.githubusercontent.com/55173033/120686282-d42b8280-c46e-11eb-99b2-0d3549041987.png)
 
 
 
@@ -51,14 +51,14 @@ java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles s
 
 Here are screenshots from the terminal showing the results of the commands above
 
-![Run the agent](assets/screenshot2.png)
-![Generate a report](assets/screenshot3.png)
+![Run the agent](https://user-images.githubusercontent.com/55173033/120686333-dee61780-c46e-11eb-8f60-fe59006e942e.png)
+![Generate a report](https://user-images.githubusercontent.com/55173033/120686362-e4436200-c46e-11eb-89fc-7c47955d1ce1.png)
 
 
 
 The JaCoCo report showed the following result
 
-![Jacoco Result](assets/screenshot4.png)
+![Jacoco Result](https://user-images.githubusercontent.com/55173033/120686394-ea394300-c46e-11eb-9458-72ebaa7fed47.png)
 
 
 
@@ -83,7 +83,7 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![running JUnit](assets/screenshot5.png)
+![running JUnit](https://user-images.githubusercontent.com/55173033/120686425-f1605100-c46e-11eb-8da3-c81ffc4bf20c.png)
 
 
 
@@ -103,14 +103,13 @@ java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles s
 
 Here is a screenshot from the terminal showing the results of the commands above
 
-![Run the agent and generate report](assets/screenshot6.png)
-
+![Run the agent and generate report](https://user-images.githubusercontent.com/55173033/120686441-f6bd9b80-c46e-11eb-9d65-78e1ec6a9fad.png)
 
 
 
 The JaCoCo report showed the following result
 
-![Jacoco Result](assets/screenshot7.png)
+![Jacoco Result](https://user-images.githubusercontent.com/55173033/120686469-fcb37c80-c46e-11eb-9127-32850c4da523.png)
 
 
 
@@ -122,6 +121,6 @@ I attempted to refactor Date.java by introducing new tests that would cover cond
 
 The JaCoCo report showed the following results
 
-![Jacoco Result](assets/screenshot8.png)
+![Jacoco Result](https://user-images.githubusercontent.com/55173033/120686487-0341f400-c46f-11eb-8d3a-bad03ed46587.png)
 
-![Jacoco Result](assets/screenshot9.png)
+![Jacoco Result](https://user-images.githubusercontent.com/55173033/120686511-0937d500-c46f-11eb-9ffe-82d908579567.png)
