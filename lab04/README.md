@@ -52,6 +52,7 @@ I then changed the code to allow specification of board size instead of just usi
 
 
 |Git commits| JUnit result |
+| --- | --- |
 |"Failing test"| FAIL |
 |"Fixed formatting of failing test"| FAIL |
 |"Passing test"| PASS |
