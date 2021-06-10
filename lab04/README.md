@@ -49,3 +49,13 @@ The result was a passing test.
 In the inital commit, every time I tested the placement of an X to the board, it would wipe all other values from the board, so I restructured it to prevent that from happening.
 
 I then changed the code to allow specification of board size instead of just using a default size, and then refactored it to catch if there were logical issues with specification of board size.
+
+
+|Git commits| JUnit result |
+|"Failing test"| FAIL |
+|"Fixed formatting of failing test"| FAIL |
+|"Passing test"| PASS |
+|"Refactoring so that it can test adding X to existing board"| FAIL |
+|"Refactored so that it actually worked"| PASS |
+|"Refactoring to test with a non-default board size as well"| PASS |
+|"Refactored to catch issues with board size"| PASS |
