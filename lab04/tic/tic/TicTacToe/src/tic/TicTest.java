@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class TicTest {
-	Tic x=new Tic();
-	
+	tic_java x=new tic_java();
 	/*
+	
 	@Test
 	void test_emptyboard() {
 		/*

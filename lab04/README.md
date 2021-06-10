@@ -14,7 +14,14 @@ I am running Java 14.0.1
 
 ### Failing Test
 
-I first created a test case that would fail, as shown below
+I first created a test case that would fail.
 
-![failing test](assets/1.PNG)
+The code within the tic_java folder I was testing:
+
+![failing test](assets/3.PNG)
+
+The code calling the test:
 ![failing test](assets/2.PNG)
+
+The result:
+![failing test](assets/1.PNG)
