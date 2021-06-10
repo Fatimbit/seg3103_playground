@@ -41,3 +41,9 @@ I then changed the code within tic_java.java to the following:
 The result was a passing test.
 
 ![passing test result](assets/5.PNG)
+
+
+
+### Refactoring
+
+In the inital commit, every time I tested the placement of an X to the board, it would wipe all other values from the board, so I restructured it to prevent that from happening.

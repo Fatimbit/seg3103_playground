@@ -16,7 +16,7 @@ public class tic_java {
 	String[][] board = new String[3][3];
 
 	
-	public static String placeX(int X, int Y) {
+	public String placeX(int X, int Y) {
 
 		board[X-1][Y-1]="X";
 		return board[X-1][Y-1];
