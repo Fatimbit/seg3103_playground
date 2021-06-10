@@ -12,11 +12,16 @@ public class tic_java {
 	return board[indxX-1][indxY-1];
 }	*/
 	
+	String[][] board = new String[3][3];		// default board is 3x3 
 	
-	String[][] board = new String[3][3];
+	public void makeBoard(int X, int Y) {		// can specify a board size
+		String[][] newBoard = new String[X][Y];
+		board=newBoard;
+	}
+	
 
 	
-	public String placeX(int X, int Y) {
+	public String placeX(int X, int Y) {		// can place X within board
 
 		board[X-1][Y-1]="X";
 		return board[X-1][Y-1];

@@ -21,6 +21,7 @@ class TicTest {
 	
 	@Test
 	void test_xPlaced() {
+		x.makeBoard(7, 4);
 		assertEquals("X", x.placeX(1,1));
 	}
 
