@@ -16,12 +16,28 @@ I am running Java 14.0.1
 
 I first created a test case that would fail.
 
-The code within the tic_java folder I was testing:
+The code within the tic_java.java file I was testing:
 
 ![failing test](assets/3.PNG)
 
 The code calling the test:
+
 ![failing test](assets/2.PNG)
 
 The result:
+
 ![failing test](assets/1.PNG)
+
+
+
+
+### Passing Test
+
+I then changed the code within tic_java.java to the following:
+
+![passing test](assets/4.PNG)
+
+
+The result was a passing test.
+
+![passing test result](assets/5.PNG)
