@@ -15,8 +15,14 @@ public class tic_java {
 	String[][] board = new String[3][3];		// default board is 3x3 
 	
 	public void makeBoard(int X, int Y) {		// can specify a board size
+		if(X>0 && Y>0) {
 		String[][] newBoard = new String[X][Y];
 		board=newBoard;
+		}
+		
+		else {
+			System.out.println("Please enter valid board dimensions. Values cannot be 0 or less.");
+		}
 	}
 	
 

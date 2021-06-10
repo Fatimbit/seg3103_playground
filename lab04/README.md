@@ -48,4 +48,4 @@ The result was a passing test.
 
 In the inital commit, every time I tested the placement of an X to the board, it would wipe all other values from the board, so I restructured it to prevent that from happening.
 
-I then changed the test to test placement of the X with a specified board size.
+I then changed the code to allow specification of board size instead of just using a default size, and then refactored it to catch if there were logical issues with specification of board size.
