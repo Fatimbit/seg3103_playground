@@ -12,8 +12,12 @@ public class tic_java {
 	return board[indxX-1][indxY-1];
 }	*/
 	
+	
+	String[][] board = new String[3][3];
+
+	
 	public static String placeX(int X, int Y) {
-		String[][] board = new String[X][Y];
+
 		board[X-1][Y-1]="X";
 		return board[X-1][Y-1];
 		
