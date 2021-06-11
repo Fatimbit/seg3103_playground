@@ -38,6 +38,11 @@ defmodule Grades.Calculator do
     end
 
 
+    def calculate_avg_exams(midterm, final) do                          #refactored for Question 2.4 (Github commit "Question 2.4 Refactored Part 2/2")
+      (midterm + final) / 2
+    end
+
+
 
 
 
@@ -49,7 +54,7 @@ defmodule Grades.Calculator do
 
   def letter_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
    {avg_homework, avg_labs} = avg(homework, labs)
-    avg_exams = (midterm + final) / 2
+    avg_exams = calculate_avg_exams(midterm, final)
 
     num_labs = calculate_numLabs(labs)
 
@@ -77,7 +82,7 @@ defmodule Grades.Calculator do
   def numeric_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
   {avg_homework, avg_labs} = avg(homework, labs)
 
-    avg_exams = (midterm + final) / 2
+    avg_exams = calculate_avg_exams(midterm, final)
 
     num_labs = calculate_numLabs(labs)
 
