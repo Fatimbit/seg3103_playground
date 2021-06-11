@@ -20,6 +20,13 @@ defmodule Grades.Calculator do
     end
 
 
+    def failed_to_participate(avg_homework, avg_exams, num_labs) do  #refactored for Question 2.2 (Github commit "Question 2.2 Refactored Complete")
+    avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3
+    end
+
+
+
+
   def percentage_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
     {avg_homework, avg_labs} = avg(homework, labs)
     mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
@@ -35,7 +42,7 @@ defmodule Grades.Calculator do
       |> Enum.reject(fn mark -> mark < 0.25 end)
       |> Enum.count()
 
-    if avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3 do
+    if failed_to_participate(avg_homework,avg_exams,num_labs) do
       "EIN"
     else
       mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
@@ -66,7 +73,7 @@ defmodule Grades.Calculator do
       |> Enum.reject(fn mark -> mark < 0.25 end)
       |> Enum.count()
 
-    if avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3 do
+    if failed_to_participate(avg_homework,avg_exams,num_labs) do
       0
     else
       mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
