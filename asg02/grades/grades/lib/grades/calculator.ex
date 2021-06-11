@@ -30,6 +30,14 @@ defmodule Grades.Calculator do
     end
 
 
+    def calculate_numLabs(labs) do                                        #refactored for Question 2.4 (Github commit "Question 2.4 Refactored Part 1/2")
+      labs
+      |> Enum.reject(fn mark -> mark < 0.25 end)
+      |> Enum.count()
+
+    end
+
+
 
 
 
@@ -43,10 +51,7 @@ defmodule Grades.Calculator do
    {avg_homework, avg_labs} = avg(homework, labs)
     avg_exams = (midterm + final) / 2
 
-    num_labs =
-      labs
-      |> Enum.reject(fn mark -> mark < 0.25 end)
-      |> Enum.count()
+    num_labs = calculate_numLabs(labs)
 
     if failed_to_participate(avg_homework,avg_exams,num_labs) do
       "EIN"
@@ -74,10 +79,7 @@ defmodule Grades.Calculator do
 
     avg_exams = (midterm + final) / 2
 
-    num_labs =
-      labs
-      |> Enum.reject(fn mark -> mark < 0.25 end)
-      |> Enum.count()
+    num_labs = calculate_numLabs(labs)
 
     if failed_to_participate(avg_homework,avg_exams,num_labs) do
       0
