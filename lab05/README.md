@@ -18,6 +18,7 @@ mix compile
 ```
 
 This gave me the following errors:
+
 ![Grades Result](grades/grades/assets/screenshot1.PNG)
 
 
@@ -61,3 +62,6 @@ But gave this result when the "Calculate" button was pressed:
 I stubbed the code to display random values:
 
 ![Grades Result](grades/grades/assets/screenshot6.PNG)
+
+
+Then I added the assignment 2 calculator code that was made by myself and my assignment partner.
