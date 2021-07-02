@@ -110,3 +110,5 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 It gave the following result:
 
 ![Twitter result](twitter/twitter/assets/screenshot9.PNG)
+
+I was unable to figure out the reason why it displayed this result, despite my attempts.
