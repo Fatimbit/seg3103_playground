@@ -67,7 +67,7 @@ I stubbed the code to display random values:
 
 Then I added the assignment 2 calculator code that was made by myself and my assignment partner.
 
-Observations: The code provided for the lab does not work with the assignment 2 solution that the instructions asked us to use, so I am unable to compare the stubbed code to the version with actual code. The stubbed code was very fast to provide results and allowed me to get a solid understanding of how the website should function with working code that provides full functionality.
+Observations: The code provided for the lab does not work with the assignment 2 solution that the instructions asked us to use, so I am unable to compare the stubbed code to the version with actual code. The stubbed code was very fast to provide results and allowed me to get a solid understanding of how the website should function with working code that provides full functionality. The lab code gives multiple ArithmeticErrors when the assignment 2 solution code is added to it, due to bad arguments in the arithmetic expressions.
 
 
 ### Java
@@ -90,7 +90,7 @@ Then I ran it with the following command:
 ```bash
 java -cp ./dist Main
 ```
-With a screenshot from the terminal
+Here is a screenshot from the terminal with the results:
 
 ![Twitter result](twitter/twitter/assets/screenshot8.PNG)
 
@@ -106,3 +106,7 @@ Then I ran the tests using the following command:
 ```
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 ```
+
+It gave the following result:
+
+![Twitter result](twitter/twitter/assets/screenshot9.PNG)
