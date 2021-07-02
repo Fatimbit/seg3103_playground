@@ -49,3 +49,10 @@ mix phx.server
 
 And then went to http://localhost:4000 and it displayed this:
 ![Grades Result](grades/grades/assets/screenshot4.PNG)
+
+But gave this result when the "Calculate" button was pressed:
+![Grades Result](grades/grades/assets/screenshot5.PNG)
+
+
+I stubbed the code to display random values:
+![Grades Result](grades/grades/assets/screenshot6.PNG)
