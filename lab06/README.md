@@ -8,7 +8,7 @@
 | Team | Fatimah Vakily 300125671 |
 
 ### MVN
-
+I first downloaded Apache Maven and added its bin folder as my system's PATH  environment variable.
 I am running apache maven version 3.8.1
 
 ```bash
@@ -23,3 +23,31 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 Here is a screenshot:
 
 ![MVN version](BookstoreApp/BookstoreApp/assets/screenshot1.PNG)
+
+
+After that, I compiled using
+```bash
+mvn compile
+```
+and it compiled successfully.
+
+![MVN compiled](BookstoreApp/BookstoreApp/assets/screenshot2.PNG)
+
+Then I ran the following command:
+```bash
+man package -DskipTests
+```
+which ran successfully.
+
+![MVN DskipTests](BookstoreApp/BookstoreApp/assets/screenshot3.PNG)
+
+
+### BookstoreApp
+
+I used
+
+```bash
+java -jar ./target/BookstoreApp-0.1.0.jar
+```
+
+and then went to http://localhost:8080
