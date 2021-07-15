@@ -44,10 +44,24 @@ which ran successfully.
 
 ### BookstoreApp
 
-I used
+First I tried using
 
 ```bash
 java -jar ./target/BookstoreApp-0.1.0.jar
 ```
+as instructed in the lab slides, but when I went to http://localhost:8080 it did not work and said it was unable to connect.
 
-and then went to http://localhost:8080
+![BookstoreApp jar fail](BookstoreApp/BookstoreApp/assets/screenshot4.PNG)
+![BookstoreApp jar fail](BookstoreApp/BookstoreApp/assets/screenshot5.PNG)
+
+
+Afterwards, I tried to use this command:
+
+```bash
+java -jar bookstore5.jar
+```
+
+and then went to http://localhost:8080 and it worked successfully.
+
+![BookstoreApp jar success](BookstoreApp/BookstoreApp/assets/screenshot6.PNG)
+![BookstoreApp jar success](BookstoreApp/BookstoreApp/assets/screenshot7.PNG)
