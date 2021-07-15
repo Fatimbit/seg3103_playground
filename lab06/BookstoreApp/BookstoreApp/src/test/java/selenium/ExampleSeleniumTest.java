@@ -76,6 +76,30 @@ class ExampleSeleniumTest {
     assertEquals(expected, getWords(actual)[0]);
   }
 
+
+
+
+  @Test
+  public void myLabTest(){
+    // example with a wrong password used as input, leading to error message
+
+    driver.get("http://localhost:8080/admin");
+    WebElement id = driver.findElement(By.id("loginId"));
+    WebElement password = driver.findElement(By.id("loginPasswd"));
+    WebElement loginButton = driver.findElement(By.id("loginBtn"));
+
+    id.sendKeys("admin");
+    password.sendKeys("incorrectPassword");
+    loginButton.click();
+
+    String expected="http://localhost:8080/login?error";
+    String actual= driver.getCurrentUrl();
+
+    assertEquals(expected, actual);
+  }
+
+
+
   private String[] getWords(String s) {
     return s.split("\\s+");
   }

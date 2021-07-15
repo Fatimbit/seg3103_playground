@@ -35,9 +35,9 @@ and it compiled successfully.
 
 Then I ran the following command:
 ```bash
-man package -DskipTests
+mvn package -DskipTests
 ```
-which ran successfully.
+which is a command that packages all the project files into one jar file so it can easily be run. It completed successfully.
 
 ![MVN DskipTests](BookstoreApp/BookstoreApp/assets/screenshot3.PNG)
 
@@ -65,3 +65,28 @@ and then went to http://localhost:8080 and it worked successfully.
 
 ![BookstoreApp jar success](BookstoreApp/BookstoreApp/assets/screenshot6.PNG)
 ![BookstoreApp jar success](BookstoreApp/BookstoreApp/assets/screenshot7.PNG)
+
+
+I went to http://localhost:8080/login and logged in with username "admin" and password "password" to reach http://localhost:8080/admin
+
+![BookstoreApp login](BookstoreApp/BookstoreApp/assets/screenshot8.PNG)
+![BookstoreApp admin](BookstoreApp/BookstoreApp/assets/screenshot9.PNG)
+
+
+### MVN Test
+
+I used another command prompt window and used the command
+```bash
+mvn test
+```
+to run the tests.
+
+This method allowed them to be run, and they all passed.
+
+![mvn test success](BookstoreApp/BookstoreApp/assets/screenshot10.PNG)
+
+
+I then added my own test to the ExampleSeleniumTest.java file and ran mvn test again, and all tests passed once again.
+
+![selenium test code](BookstoreApp/BookstoreApp/assets/screenshot12.PNG)
+![mvn tests success](BookstoreApp/BookstoreApp/assets/screenshot11.PNG)
