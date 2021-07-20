@@ -185,40 +185,55 @@ class ExampleSeleniumTest {
     driver.get("http://localhost:8080/catalog");
     driver.findElement(By.id("order-alexander001")).click();
     driver.findElement(By.id("cartLink")).click();
-    driver.findElement(By.id("alexander001")).sendKeys("2");
-    driver.findElement(By.name("updateOrder")).click();
-    driver.findElement(By.id("totalexander001")).click();
-    driver.findElement(By.id("totalexander001")).click();
   }
 
   @Test
   public void testF3negative() {
     driver.get("http://localhost:8080/");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-lewis001")).click();
+    driver.findElement(By.id("order-lewis001")).click();
+    driver.findElement(By.id("cartLink")).click();
+  }
+  @Test
+  public void testF4positive() {
+    driver.get("http://localhost:8080/");
     driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-hall002")).click();
+    driver.findElement(By.id("order-lewis001")).click();
+    driver.findElement(By.id("cartLink")).click();
+  }
+  @Test
+  public void testF4negative() {
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("cartLink")).click();
+  }
+  @Test
+  public void testF5positive() {
+    driver.get("http://localhost:8080/");
     driver.findElement(By.id("searchBtn")).click();
     driver.get("http://localhost:8080/catalog");
     driver.findElement(By.id("order-lewis001")).click();
     driver.findElement(By.id("cartLink")).click();
-    driver.findElement(By.id("lewis001")).sendKeys("-0.5");
+    driver.findElement(By.id("lewis001")).sendKeys("2");
     driver.findElement(By.name("updateOrder")).click();
-  }
-  @Test
-  public void testF4positive() {
-    
-  }
-
-  @Test
-  public void testF4negative() {
-    
-  }
-  @Test
-  public void testF5positive() {
-    
   }
 
   @Test
   public void testF5negative() {
-    
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-lewis001")).click();
+    driver.findElement(By.id("cartLink")).click();
+    driver.findElement(By.id("lewis001")).sendKeys("2.5");
+    driver.findElement(By.name("updateOrder")).click();
   }
   @Test
   public void testF6positive() {
