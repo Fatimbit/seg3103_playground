@@ -133,8 +133,34 @@ class ExampleSeleniumTest {
 
   @Test
   public void testF1negative() {
-    
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("addBook-title")).click();
+    driver.findElement(By.id("addBook-title")).sendKeys("Book Title");
+    driver.findElement(By.id("addBook-authors")).click();
+    driver.findElement(By.id("addBook-authors")).sendKeys("Person");
+    driver.findElement(By.id("longDescription")).click();
+    driver.findElement(By.id("longDescription")).sendKeys("I am testing it is 4:46 AM");
+    driver.findElement(By.id("cost")).click();
+    driver.findElement(By.id("cost")).sendKeys("9.0");
+    driver.findElement(By.name("addBook")).click();
+    {
+      WebElement element = driver.findElement(By.name("addBook"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.tagName("body"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element, 0, 0).perform();
+    }
   }
+
   @Test
   public void testF2positive() {
     driver.get("http://localhost:8080/");
