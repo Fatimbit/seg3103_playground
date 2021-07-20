@@ -15,6 +15,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.interactions.Actions;
 
 class ExampleSeleniumTest {
 
@@ -83,7 +84,51 @@ class ExampleSeleniumTest {
 
   @Test
   public void testF1positive() {
-    
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("addBook-category")).click();
+    driver.findElement(By.id("addBook-category")).sendKeys("theater");
+    driver.findElement(By.id("addBook-id")).click();
+    driver.findElement(By.id("addBook-id")).sendKeys("12345");
+    driver.findElement(By.id("addBook-title")).click();
+    driver.findElement(By.id("addBook-title")).sendKeys("Fake Book");
+    driver.findElement(By.id("addBook-authors")).click();
+    driver.findElement(By.id("addBook-authors")).sendKeys("Someone");
+    {
+      WebElement element = driver.findElement(By.id("longDescription"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).clickAndHold().perform();
+    }
+    {
+      WebElement element = driver.findElement(By.id("longDescription"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.id("longDescription"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).release().perform();
+    }
+    driver.findElement(By.id("longDescription")).click();
+    driver.findElement(By.id("longDescription")).sendKeys("testing");
+    driver.findElement(By.id("cost")).click();
+    driver.findElement(By.id("cost")).sendKeys("9.0");
+    driver.findElement(By.name("addBook")).click();
+    {
+      WebElement element = driver.findElement(By.name("addBook"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.tagName("body"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element, 0, 0).perform();
+    }
   }
 
   @Test
