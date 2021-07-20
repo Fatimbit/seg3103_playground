@@ -254,16 +254,35 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("cartLink")).click();
     driver.findElement(By.name("checkout")).click();
   }
-  
+
   @Test
   public void testF7positive() {
-    
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/admin/catalog");
+    driver.findElement(By.id("del-alexander001")).click();
   }
 
   @Test
   public void testF7negative() {
-    
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/admin/catalog");
+   // driver.findElement(By.id("del-fakeid")).click();
   }
+
   @Test
   public void testF8positive() {
     
