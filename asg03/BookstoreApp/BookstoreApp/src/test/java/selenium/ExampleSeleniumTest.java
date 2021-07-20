@@ -192,8 +192,7 @@ class ExampleSeleniumTest {
     driver.get("http://localhost:8080/");
     driver.findElement(By.id("searchBtn")).click();
     driver.get("http://localhost:8080/catalog");
-    driver.findElement(By.id("order-lewis001")).click();
-    driver.findElement(By.id("order-lewis001")).click();
+ //   driver.findElement(By.id("order-bookthatdoesn'texist")).click();
     driver.findElement(By.id("cartLink")).click();
   }
   @Test
