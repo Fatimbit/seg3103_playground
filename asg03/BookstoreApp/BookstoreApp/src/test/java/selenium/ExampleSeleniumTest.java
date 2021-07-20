@@ -237,13 +237,24 @@ class ExampleSeleniumTest {
   }
   @Test
   public void testF6positive() {
-    
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-rowling001")).click();
+    driver.findElement(By.id("order-alexander001")).click();
+    driver.findElement(By.id("cartLink")).click();
+    driver.findElement(By.name("checkout")).click();
   }
 
   @Test
   public void testF6negative() {
-    
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("cartLink")).click();
+    driver.findElement(By.name("checkout")).click();
   }
+  
   @Test
   public void testF7positive() {
     
