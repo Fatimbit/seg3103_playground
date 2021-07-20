@@ -79,4 +79,85 @@ class ExampleSeleniumTest {
   private String[] getWords(String s) {
     return s.split("\\s+");
   }
+
+
+  @Test
+  public void testF1positive() {
+    
+  }
+
+  @Test
+  public void testF1negative() {
+    
+  }
+  @Test
+  public void testF2positive() {
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("searchBtn")).click();
+  }
+
+  @Test
+  public void testF2negative() {
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("search-category-form")).click();
+    driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("search")).sendKeys(".");
+    driver.findElement(By.id("searchBtn")).click();
+    driver.findElement(By.cssSelector("html")).click();
+  }
+  @Test
+  public void testF3positive() {
+    
+  }
+
+  @Test
+  public void testF3negative() {
+    
+  }
+  @Test
+  public void testF4positive() {
+    
+  }
+
+  @Test
+  public void testF4negative() {
+    
+  }
+  @Test
+  public void testF5positive() {
+    
+  }
+
+  @Test
+  public void testF5negative() {
+    
+  }
+  @Test
+  public void testF6positive() {
+    
+  }
+
+  @Test
+  public void testF6negative() {
+    
+  }
+  @Test
+  public void testF7positive() {
+    
+  }
+
+  @Test
+  public void testF7negative() {
+    
+  }
+  @Test
+  public void testF8positive() {
+    
+  }
+
+  @Test
+  public void testF8negative() {
+    
+  }
 }
