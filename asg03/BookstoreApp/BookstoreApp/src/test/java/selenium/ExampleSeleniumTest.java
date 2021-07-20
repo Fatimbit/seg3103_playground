@@ -179,12 +179,28 @@ class ExampleSeleniumTest {
   }
   @Test
   public void testF3positive() {
-    
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-alexander001")).click();
+    driver.findElement(By.id("cartLink")).click();
+    driver.findElement(By.id("alexander001")).sendKeys("2");
+    driver.findElement(By.name("updateOrder")).click();
+    driver.findElement(By.id("totalexander001")).click();
+    driver.findElement(By.id("totalexander001")).click();
   }
 
   @Test
   public void testF3negative() {
-    
+    driver.get("http://localhost:8080/");
+    driver.findElement(By.id("search")).click();
+    driver.findElement(By.id("searchBtn")).click();
+    driver.get("http://localhost:8080/catalog");
+    driver.findElement(By.id("order-lewis001")).click();
+    driver.findElement(By.id("cartLink")).click();
+    driver.findElement(By.id("lewis001")).sendKeys("-0.5");
+    driver.findElement(By.name("updateOrder")).click();
   }
   @Test
   public void testF4positive() {
