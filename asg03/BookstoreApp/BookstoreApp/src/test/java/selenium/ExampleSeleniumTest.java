@@ -285,11 +285,69 @@ class ExampleSeleniumTest {
 
   @Test
   public void testF8positive() {
-    
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("password");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("addBook-category")).click();
+    driver.findElement(By.id("addBook-category")).sendKeys("Test");
+    driver.findElement(By.id("addBook-id")).click();
+    driver.findElement(By.id("addBook-id")).sendKeys("54321");
+    driver.findElement(By.id("addBook-title")).click();
+    driver.findElement(By.id("addBook-title")).sendKeys("I\'m so tired");
+    driver.findElement(By.id("addBook-authors")).click();
+    driver.findElement(By.id("addBook-authors")).sendKeys("Fatimah");
+    driver.findElement(By.id("longDescription")).click();
+    driver.findElement(By.id("longDescription")).sendKeys("sleepy");
+    driver.findElement(By.id("cost")).click();
+    driver.findElement(By.id("cost")).sendKeys("6.0");
+    driver.findElement(By.name("addBook")).click();
+    {
+      WebElement element = driver.findElement(By.name("addBook"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.tagName("body"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element, 0, 0).perform();
+    }
   }
 
   @Test
-  public void testF8negative() {
-    
-  }
+  public void testF8negative() {/*
+    driver.get("http://localhost:8080/login");
+    driver.findElement(By.id("loginId")).click();
+    driver.findElement(By.id("loginId")).sendKeys("admin");
+    driver.findElement(By.id("loginPasswd")).click();
+    driver.findElement(By.id("loginPasswd")).sendKeys("WRONGpassword");
+    driver.findElement(By.id("loginBtn")).click();
+    driver.get("http://localhost:8080/admin");
+    driver.findElement(By.id("addBook-category")).click();
+    driver.findElement(By.id("addBook-category")).sendKeys("Test");
+    driver.findElement(By.id("addBook-id")).click();
+    driver.findElement(By.id("addBook-id")).sendKeys("54321");
+    driver.findElement(By.id("addBook-title")).click();
+    driver.findElement(By.id("addBook-title")).sendKeys("I\'m so tired");
+    driver.findElement(By.id("addBook-authors")).click();
+    driver.findElement(By.id("addBook-authors")).sendKeys("Fatimah");
+    driver.findElement(By.id("longDescription")).click();
+    driver.findElement(By.id("longDescription")).sendKeys("sleepy");
+    driver.findElement(By.id("cost")).click();
+    driver.findElement(By.id("cost")).sendKeys("6.0");
+    driver.findElement(By.name("addBook")).click();
+    {
+      WebElement element = driver.findElement(By.name("addBook"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.tagName("body"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element, 0, 0).perform();
+    }*/
+  } 
 }
