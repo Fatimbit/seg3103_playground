@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.ExampleSeleniumTest" time="192.393" tests="23" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.ExampleSeleniumTest" time="480.396" tests="29" errors="4" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\jazzi\AppData\Local\Temp\surefire16483585231958584125\surefirebooter3952899477410141910.jar C:\Users\jazzi\AppData\Local\Temp\surefire16483585231958584125 2021-07-20T18-55-55_312-jvmRun1 surefire12505105488410369168tmp surefire_011670112671822630259tmp"/>
+    <property name="sun.java.command" value="C:\Users\jazzi\AppData\Local\Temp\surefire4216336085033225915\surefirebooter16599408881771947199.jar C:\Users\jazzi\AppData\Local\Temp\surefire4216336085033225915 2021-07-20T21-07-13_287-jvmRun1 surefire1698055285910231634tmp surefire_06661667852729691809tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jazzi\Downloads\SEG3103\seg3101_playground\asg03\BookstoreApp\BookstoreApp\target\test-classes;C:\Users\jazzi\Downloads\SEG3103\seg3101_playground\asg03\BookstoreApp\BookstoreApp\target\classes;C:\Users\jazzi\.m2\repository\io\cucumber\cucumber-java\4.2.6\cucumber-java-4.2.6.jar;C:\Users\jazzi\.m2\repository\io\cucumber\cucumber-core\4.2.6\cucumber-core-4.2.6.jar;C:\Users\jazzi\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\jazzi\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\jazzi\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\jazzi\.m2\repository\io\cucumber\cucumber-expressions\6.2.0\cucumber-expressions-6.2.0.jar;C:\Users\jazzi\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\jazzi\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\jazzi\.m2\repository\io\cucumber\cucumber-junit\4.2.6\cucumber-junit-4.2.6.jar;C:\Users\jazzi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jazzi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\jazzi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\jazzi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jazzi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\jazzi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\jazzi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\jazzi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\jazzi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\jazzi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\jazzi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\jazzi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.33.2\htmlunit-driver-2.33.2.jar;C:\Users\jazzi\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.33\htmlunit-2.33.jar;C:\Users\jazzi\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\jazzi\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\jazzi\.m2\repository\org\apache\commons\commons-text\1.4\commons-text-1.4.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.6\httpmime-4.5.6.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\jazzi\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.33\htmlunit-core-js-2.33.jar;C:\Users\jazzi\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.33\neko-htmlunit-2.33.jar;C:\Users\jazzi\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\jazzi\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\jazzi\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.2.0\htmlunit-cssparser-1.2.0.jar;C:\Users\jazzi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jazzi\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.12.v20180830\websocket-client-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\jetty-client\9.4.12.v20180830\jetty-client-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\jetty-http\9.4.12.v20180830\jetty-http-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.12.v20180830\jetty-xml-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\jetty-util\9.4.12.v20180830\jetty-util-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\jetty-io\9.4.12.v20180830\jetty-io-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.12.v20180830\websocket-common-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.12.v20180830\websocket-api-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\jazzi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\jazzi\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\jazzi\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\jazzi\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\jazzi\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\jazzi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jazzi\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jazzi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jazzi\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jazzi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\jazzi\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\jazzi\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\jazzi\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\jazzi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\jazzi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\jazzi\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\jazzi\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\jazzi\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\jazzi\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\jazzi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\jazzi\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jazzi\AppData\Local\Temp\surefire16483585231958584125\surefirebooter3952899477410141910.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jazzi\AppData\Local\Temp\surefire4216336085033225915\surefirebooter16599408881771947199.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9"/>
@@ -56,27 +56,146 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="TC10_1" classname="selenium.ExampleSeleniumTest" time="11.137"/>
-  <testcase name="testF6negative" classname="selenium.ExampleSeleniumTest" time="9.173"/>
-  <testcase name="testF1positive" classname="selenium.ExampleSeleniumTest" time="6.989"/>
-  <testcase name="testF1negative" classname="selenium.ExampleSeleniumTest" time="5.209"/>
-  <testcase name="testF8positive" classname="selenium.ExampleSeleniumTest" time="7.056"/>
-  <testcase name="testF8negative" classname="selenium.ExampleSeleniumTest" time="5.67"/>
-  <testcase name="testF3negative" classname="selenium.ExampleSeleniumTest" time="6.638"/>
-  <testcase name="TC1_1" classname="selenium.ExampleSeleniumTest" time="6.3"/>
-  <testcase name="TC1_2" classname="selenium.ExampleSeleniumTest" time="6.721"/>
-  <testcase name="TC2_1" classname="selenium.ExampleSeleniumTest" time="7.012"/>
-  <testcase name="TC3_1" classname="selenium.ExampleSeleniumTest" time="6.819"/>
-  <testcase name="TC6_2" classname="selenium.ExampleSeleniumTest" time="9.735"/>
-  <testcase name="TC8_1" classname="selenium.ExampleSeleniumTest" time="7.769"/>
-  <testcase name="TC8_2" classname="selenium.ExampleSeleniumTest" time="9.913"/>
-  <testcase name="test1" classname="selenium.ExampleSeleniumTest" time="4.904"/>
-  <testcase name="test2" classname="selenium.ExampleSeleniumTest" time="4.907"/>
-  <testcase name="testF5positive" classname="selenium.ExampleSeleniumTest" time="18.686"/>
-  <testcase name="testF5negative" classname="selenium.ExampleSeleniumTest" time="9.873"/>
-  <testcase name="testF7negative" classname="selenium.ExampleSeleniumTest" time="12.013"/>
-  <testcase name="testF2positive" classname="selenium.ExampleSeleniumTest" time="8.22"/>
-  <testcase name="testF2negative" classname="selenium.ExampleSeleniumTest" time="7.412"/>
-  <testcase name="testF4positive" classname="selenium.ExampleSeleniumTest" time="9.799"/>
-  <testcase name="testF4negative" classname="selenium.ExampleSeleniumTest" time="10.403"/>
+  <testcase name="TC10_1" classname="selenium.ExampleSeleniumTest" time="6.022"/>
+  <testcase name="testF6negative" classname="selenium.ExampleSeleniumTest" time="7.957"/>
+  <testcase name="testF1positive" classname="selenium.ExampleSeleniumTest" time="5.251"/>
+  <testcase name="testF1negative" classname="selenium.ExampleSeleniumTest" time="6.825"/>
+  <testcase name="testF8positive" classname="selenium.ExampleSeleniumTest" time="9.129"/>
+  <testcase name="testF8negative" classname="selenium.ExampleSeleniumTest" time="4.279"/>
+  <testcase name="testF3negative" classname="selenium.ExampleSeleniumTest" time="6.056"/>
+  <testcase name="TC1_1" classname="selenium.ExampleSeleniumTest" time="5.567"/>
+  <testcase name="TC1_2" classname="selenium.ExampleSeleniumTest" time="8.363"/>
+  <testcase name="TC2_1" classname="selenium.ExampleSeleniumTest" time="7.52"/>
+  <testcase name="TC3_1" classname="selenium.ExampleSeleniumTest" time="7.072">
+    <failure message="expected: &lt;Successfully added book&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Successfully added book> but was: <>
+	at selenium.ExampleSeleniumTest.TC3_1(ExampleSeleniumTest.java:431)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21007
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:08:23 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC3_2" classname="selenium.ExampleSeleniumTest" time="9.276">
+    <failure message="expected: &lt;Successfully added book&gt; but was: &lt;Validation errors&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Successfully added book> but was: <Validation errors>
+	at selenium.ExampleSeleniumTest.TC3_2(ExampleSeleniumTest.java:481)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 34901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:08:32 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC3_3" classname="selenium.ExampleSeleniumTest" time="9.175">
+    <failure message="expected: &lt;Successfully added book&gt; but was: &lt;Book with same id already exist&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Successfully added book> but was: <Book with same id already exist>
+	at selenium.ExampleSeleniumTest.TC3_3(ExampleSeleniumTest.java:532)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 28656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:08:42 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC4_1" classname="selenium.ExampleSeleniumTest" time="24.73">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search&quot;}&#10;  (Session info: chrome=91.0.4472.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-M073I45&apos;, ip: &apos;10.0.1.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9c71ad051740538ee6a1c95255a6ec38&#10;*** Element info: {Using=id, value=search}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M073I45', ip: '10.0.1.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c71ad051740538ee6a1c95255a6ec38
+*** Element info: {Using=id, value=search}
+	at selenium.ExampleSeleniumTest.TC4_1(ExampleSeleniumTest.java:550)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 39492
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:08:50 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC4_2" classname="selenium.ExampleSeleniumTest" time="17.277">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search&quot;}&#10;  (Session info: chrome=91.0.4472.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-M073I45&apos;, ip: &apos;10.0.1.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 086871a34bc18699a6742309588dd657&#10;*** Element info: {Using=id, value=search}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M073I45', ip: '10.0.1.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 086871a34bc18699a6742309588dd657
+*** Element info: {Using=id, value=search}
+	at selenium.ExampleSeleniumTest.TC4_2(ExampleSeleniumTest.java:562)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 28376
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:09:15 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC4_3" classname="selenium.ExampleSeleniumTest" time="17.266">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search&quot;}&#10;  (Session info: chrome=91.0.4472.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-M073I45&apos;, ip: &apos;10.0.1.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53db5eab591e0099a487c99032f790a8&#10;*** Element info: {Using=id, value=search}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M073I45', ip: '10.0.1.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53db5eab591e0099a487c99032f790a8
+*** Element info: {Using=id, value=search}
+	at selenium.ExampleSeleniumTest.TC4_3(ExampleSeleniumTest.java:574)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 41400
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:09:31 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC6_1" classname="selenium.ExampleSeleniumTest" time="19.162"/>
+  <testcase name="TC6_2" classname="selenium.ExampleSeleniumTest" time="16.622"/>
+  <testcase name="TC8_1" classname="selenium.ExampleSeleniumTest" time="24.063"/>
+  <testcase name="TC8_2" classname="selenium.ExampleSeleniumTest" time="22.372"/>
+  <testcase name="test1" classname="selenium.ExampleSeleniumTest" time="9.29"/>
+  <testcase name="test2" classname="selenium.ExampleSeleniumTest" time="14.94"/>
+  <testcase name="testF5positive" classname="selenium.ExampleSeleniumTest" time="30.456">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#lewis001&quot;}&#10;  (Session info: chrome=91.0.4472.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-M073I45&apos;, ip: &apos;10.0.1.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fbcbc7e5ab575618d7854a0d99d68740&#10;*** Element info: {Using=id, value=lewis001}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#lewis001"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M073I45', ip: '10.0.1.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\jazzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbcbc7e5ab575618d7854a0d99d68740
+*** Element info: {Using=id, value=lewis001}
+	at selenium.ExampleSeleniumTest.testF5positive(ExampleSeleniumTest.java:223)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33435
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 20, 2021 9:11:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testF5negative" classname="selenium.ExampleSeleniumTest" time="17.863"/>
+  <testcase name="testF7negative" classname="selenium.ExampleSeleniumTest" time="47.71"/>
+  <testcase name="testF2positive" classname="selenium.ExampleSeleniumTest" time="44.142"/>
+  <testcase name="testF2negative" classname="selenium.ExampleSeleniumTest" time="27.417"/>
+  <testcase name="testF4positive" classname="selenium.ExampleSeleniumTest" time="16.737"/>
+  <testcase name="testF4negative" classname="selenium.ExampleSeleniumTest" time="37.834"/>
 </testsuite>
