@@ -129,6 +129,10 @@ class ExampleSeleniumTest {
       Actions builder = new Actions(driver);
       builder.moveToElement(element, 0, 0).perform();
     }
+    WebElement confirmation = driver.findElement(By.cssSelector("h2"));
+    String expected = "Successfully";
+    String actual = confirmation.getText();
+    assertEquals(expected, getWords(actual)[0]);
   }
 
   @Test
@@ -159,6 +163,10 @@ class ExampleSeleniumTest {
       Actions builder = new Actions(driver);
       builder.moveToElement(element, 0, 0).perform();
     }
+    WebElement confirmation = driver.findElement(By.cssSelector("h2"));
+    String expected = "Successfully";
+    String actual = confirmation.getText();
+    assertEquals(expected, getWords(actual)[0]);
   }
 
   @Test
@@ -166,6 +174,11 @@ class ExampleSeleniumTest {
     driver.get("http://localhost:8080/");
     driver.findElement(By.id("search")).click();
     driver.findElement(By.id("searchBtn")).click();
+
+    WebElement confirmation = driver.findElement(By.cssSelector("h1"));
+    String expected = "We";
+    String actual = confirmation.getText();
+    assertEquals(expected, getWords(actual)[0]);
   }
 
   @Test
@@ -176,6 +189,11 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("search")).sendKeys(".");
     driver.findElement(By.id("searchBtn")).click();
     driver.findElement(By.cssSelector("html")).click();
+
+    WebElement confirmation = driver.findElement(By.cssSelector("h1"));
+    String expected = "We";
+    String actual = confirmation.getText();
+    assertEquals(expected, getWords(actual)[0]);
   }
   /*  @Test
   public void testF3positive() {
