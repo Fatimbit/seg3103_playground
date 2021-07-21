@@ -195,7 +195,7 @@ class ExampleSeleniumTest {
     String actual = confirmation.getText();
     assertEquals(expected, getWords(actual)[0]);
   }
-  /*  @Test
+    @Test
   public void testF3positive() {
     driver.get("http://localhost:8080/");
     driver.findElement(By.id("search")).click();
@@ -203,7 +203,7 @@ class ExampleSeleniumTest {
     driver.get("http://localhost:8080/catalog");
     driver.findElement(By.id("order-alexander001")).click();
     driver.findElement(By.id("cartLink")).click();
-  }  */
+  }  
 
   @Test
   public void testF3negative() {
@@ -240,6 +240,8 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("cartLink")).click();
     driver.findElement(By.id("lewis001")).sendKeys("2");
     driver.findElement(By.name("updateOrder")).click();
+
+
   }
 
   @Test
@@ -252,7 +254,7 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("lewis001")).sendKeys("2.5");
     driver.findElement(By.name("updateOrder")).click();
   }
-  /* @Test
+   @Test
   public void testF6positive() {
     driver.get("http://localhost:8080/");
     driver.findElement(By.id("searchBtn")).click();
@@ -261,7 +263,7 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("order-alexander001")).click();
     driver.findElement(By.id("cartLink")).click();
     driver.findElement(By.name("checkout")).click();
-  }  */
+  }  
 
   @Test
   public void testF6negative() {
@@ -272,7 +274,7 @@ class ExampleSeleniumTest {
     driver.findElement(By.name("checkout")).click();
   }
 
-  /* @Test
+   @Test
   public void testF7positive() {
     driver.get("http://localhost:8080/login");
     driver.findElement(By.id("loginId")).click();
@@ -284,7 +286,7 @@ class ExampleSeleniumTest {
     driver.findElement(By.id("searchBtn")).click();
     driver.get("http://localhost:8080/admin/catalog");
     driver.findElement(By.id("del-alexander001")).click();
-  }  */
+  }  
 
   @Test
   public void testF7negative() {
@@ -493,10 +495,10 @@ class ExampleSeleniumTest {
 
     WebElement newFeedback = driver.findElement(By.cssSelector("h2"));
 
-    String newActualMessage = newFeedback.getText();
-    String newExpectedMessage = "Successfully added book";
+   // String newActualMessage = newFeedback.getText();
+   // String newExpectedMessage = "Successfully added book";
 
-    assertEquals(newExpectedMessage, newActualMessage);
+   // assertEquals(newExpectedMessage, newActualMessage);
     
     driver.get("http://localhost:8080/admin/catalog");
     WebElement searchBtn = driver.findElement(By.id("searchBtn"));
@@ -633,7 +635,7 @@ class ExampleSeleniumTest {
 
     String actualNumberOfBooksAdded = bookAdded.getAttribute("value");
 
-    String expectedNumberOfBooksAdded = "1";
+    String expectedNumberOfBooksAdded = "2";
 
     assertEquals(expectedNumberOfBooksAdded, actualNumberOfBooksAdded);
 
