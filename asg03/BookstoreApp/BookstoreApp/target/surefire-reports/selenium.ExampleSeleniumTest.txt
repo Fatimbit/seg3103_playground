@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: selenium.ExampleSeleniumTest
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 147.498 s <<< FAILURE! - in selenium.ExampleSeleniumTest
-testF1negative  Time elapsed: 5.211 s  <<< FAILURE!
+Tests run: 32, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 153.301 s <<< FAILURE! - in selenium.ExampleSeleniumTest
+testF1negative  Time elapsed: 5.013 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <Successfully> but was: <Validation>
 	at selenium.ExampleSeleniumTest.testF1negative(ExampleSeleniumTest.java:169)
 
-TC8_1  Time elapsed: 4.191 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <$79.90> but was: <$39.95>
+TC3_3  Time elapsed: 4.67 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Book with same id already exist> but was: <Successfully added book>
+	at selenium.ExampleSeleniumTest.TC3_3(ExampleSeleniumTest.java:539)
+
+TC8_1  Time elapsed: 4.607 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <$39.95> but was: <$79.90>
 	at selenium.ExampleSeleniumTest.TC8_1(ExampleSeleniumTest.java:703)
 
-TC8_2  Time elapsed: 4.373 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <$0.00> but was: <$39.95>
-	at selenium.ExampleSeleniumTest.TC8_2(ExampleSeleniumTest.java:735)
-
-testF2negative  Time elapsed: 4.371 s  <<< FAILURE!
+testF2negative  Time elapsed: 3.953 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <We> but was: <Sorry>
 	at selenium.ExampleSeleniumTest.testF2negative(ExampleSeleniumTest.java:196)
 
