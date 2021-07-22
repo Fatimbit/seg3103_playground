@@ -12,6 +12,6 @@ public class Main {
     JFrame frame =
 	  new CalCFrame("Calculator");
     frame.setSize(360,200);
-    frame.setVisible(true);
+
   }
 }

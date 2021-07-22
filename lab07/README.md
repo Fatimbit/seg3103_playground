@@ -39,3 +39,9 @@ I then created a new project:
 This is the result of the analysis showing how many bugs the code had at first:
 
 ![calculator](calculator/calculator/assets/screenshot4.PNG)
+
+I then fixed the bugs until I got this as the result of the spotbugs analysis:
+
+![calculator](calculator/calculator/assets/screenshot5.PNG)
+
+The only bug I did not fix was the one showing the "Bug kind and pattern: SIC - SIC_INNER_SHOULD_BE_STATIC_ANON" message. I would fix the code by refactoring the inner class on line 53 of the CalCFrameTest.java file into a static named inner class.
